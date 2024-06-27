@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+
+
+    <!-- forms implemented -->
+    
+    <form>
+        <p>
+            
+            <input type="text" name="username" size="15"
+            maxlength="2" placeholder="enter your username"
+            />
+        </p>
+        <p>
+            Password:
+            <input type="password" name="password" size="15"
+            maxlength="30" placeholder="create 6 digit code"/>
+        </p>
+        <p>
+            <textarea name="comments" cols="50" rows="6">
+                
+            </textarea>
+        </p>
+        <p>
+            <input type="radio" name="gender" value="male" 
+            checked
+             /> Male
+            <input type="radio" name="gender" value="female"
+             /> Female
+        </p>
+
+
+
+        <p>
+            <input type="checkbox" name="service"
+            value="itunes" checked />
+             iTunes
+            <input type="checkbox" name="service"
+            value="lastfm" />
+             Last.fm
+            <input type="checkbox" name="service"
+            value="spotify" /> 
+            Spotify
+        </p>
+
+<!-- user info -->
+        <p>What device do you listen to music on?</p>
+        
+        <select name="devices" size="3" multiple>
+        <option value="ipod">iPod</option>
+        <option value="radio">Radio</option>
+        <option value="laptop">laptop</option>
+        <option value="computer" selected>Computer</option>
+        </select>
+
+
+
+
+        <p>Upload image:</p>
+        <input type="file" name="user-image" >
+
+        <input type="submit" value="submit">
+
+
+        <button >submit</button>
+
+    </form>
+
+<!-- <form >
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="image" src="./yeshi-kangrang-wTD1-_u8x1g-unsplash.jpg"
+    width="100" height="20" />
+    </form>  -->
+
+
+    <form >
+        <button>
+            <img src="./yeshi-kangrang-wTD1-_u8x1g-unsplash.jpg" alt="add"
+            width="10" height="10" /> 
+            Add
+        </button>
+            <input type="hidden" name="bookmark"
+            value="lyrics" />
+
+    </form>
+
+
+
+    <form >
+
+        Gender:
+        <input id="female-radio" type="radio" name="gender"
+        value="female">
+        <label for="female-radio">Female</label>
+        <input id="male-radio" type="radio" name="gender"
+        value="male">
+        <label for="male-radio">Male</label>
+
+
+
+
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>
+                email:
+                <input type="email" required>
+            </label>
+            <br>
+            <br>
+            <label>
+                number:
+                <input type="email">
+            </label>
+            
+        </fieldset>
+
+    </form>
+
+
+    <br>
+<form >
+    Name
+    <input type="text" name="name" required placeholder="Enter your name">
+    <input type="submit" value="Submit">
+<br>
+    DOB :
+    <input type="date">
+    <input type="color">
+    <input type="">
+    <input type="date">
+    <input type="date">
+
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<!-- {
+
+username: some text,
+password: 12233423,
+gen: male,
+gender: male,
+service: Lastfm
+} -->
+</body>
+</html>
