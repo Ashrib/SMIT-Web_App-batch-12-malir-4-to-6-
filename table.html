@@ -1,87 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+
     <title>Document</title>
-</head>
-<body>
-    <table border="2">
-        <thead>
-        <tr>
-        <th>Date</th>
-        <th>Income</th>
-        <th>Expenditure</th>
-        </tr>
+   
+    <style>
+      .red_text {
+        color: red;
+        font-weight: bold;
+      }
+      #parent {
+        display: flex;
+      }
+      .child {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main_container">
+      <table border="2" id="top">
+        <thead id="id">
+          <tr id="id">
+            <th class="blue">Date</th>
+            <th>Income</th>
+            <th>Expenditure</th>
+          </tr>
         </thead>
         <tbody>
-        <tr>
-        <th>1st January</th>
-        <td>250</td>
-        <td>36</td>
-        </tr>
-        <tr>
-        <th>2nd January</th>
-        <td>285</td>
-        <td>48</td>
-        </tr>
-        <tr>
-        <th>31st January</th>
-        <td>129</td>
-        <td>64</td>
-        </tr>
+          <tr>
+            <th>1st January</th>
+            <td class="colored blue">250</td>
+            <td class="colored">36</td>
+          </tr>
+          <tr>
+            <th>2nd January</th>
+            <td class="colored">285</td>
+            <td class="colored">48</td>
+          </tr>
+          <tr>
+            <th>31st January</th>
+            <td class="colored">129</td>
+            <td class="colored">64</td>
+          </tr>
         </tbody>
         <tfoot>
-        <tr>
-        <td></td>
-        <td>7824</td>
-        <td>1241</td>
-        </tr>
+          <tr>
+            <td></td>
+            <td>7824</td>
+            <td>1241</td>
+          </tr>
         </tfoot>
-       
-    
-    
-    </table>
+      </table>
 
-
-    <table border="2">
+      <table border="2">
         <thead>
-        <tr>
-        <th></th>
-        <th scope="col">Home starter hosting</th>
-        <th scope="col">Premium business hosting</th>
-        <th scope="col">Premium business hosting</th>
-        </tr>
+          <tr>
+            <th></th>
+            <th scope="col">Home starter hosting</th>
+            <th scope="col">Premium business hosting</th>
+            <th scope="col">Premium business hosting</th>
+          </tr>
         </thead>
         <tbody>
-        <tr>
-        <th scope="row">Disk space</th>
-        <td>250mb</td>
-        <td>1gb</td>
-        <td>1gb</td>
-        </tr>
-        <tr bgcolor="red">
-        <th scope="row">Bandwidth</th>
-        <td>5gb per month</td>
-        <td>50gb per month</td>
-        <td>50gb per month</td>
-        </tr>
-        <!-- more rows like the two above here -->
+          <tr>
+            <th scope="row">Disk space</th>
+            <td>250mb</td>
+            <td>1gb</td>
+            <td>1gb</td>
+          </tr>
+          <tr>
+            <th scope="row">Bandwidth</th>
+            <td>5gb per month</td>
+            <td>50gb per month</td>
+            <td>50gb per month</td>
+          </tr>
+          <!-- more rows like the two above here -->
         </tbody>
         <tfoot>
-        <tr>
-        <td bgcolor="red">h</td>
-        <td colspan="2" style="visibility: hidden;"></td>
-        <td bgcolor="yellow">he</td>
-        </tr>
+          <tr>
+            <td>h</td>
+            <td colspan="2" style="visibility: hidden"></td>
+            <td>he</td>
+          </tr>
         </tfoot>
-        </table>
+      </table>
 
+      <br />
+      <br />
+      <br />
 
-<br>
-<br>
-<br>
+      <div id="parent">
+        <div class="clid">
+          <p>
+            <span class="red_text">Lorem ipsum</span> dolor sit amet consectetur
+            adipisicing elit. Fugiat harum odio accusantium consectetur dolore
+            ut corrupti id, quibusdam veritatis facere beatae dolorum aut eos
+            magnam rerum exercitationem, debitis ducimus <b> minima.</b>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum libero
+            placeat quis culpa ipsum officia modi quam veniam, temporibus,
+            reiciendis facere enim dolore fugiat ipsa? Accusamus obcaecati
+            beatae <span class="red_text">tempore tenetur.</span>
+          </p>
+        </div>
+        <div class="clid">
+          <p>
+            <span class="red_text">Lorem ipsum</span> dolor sit amet consectetur
+            adipisicing elit. Fugiat harum odio accusantium consectetur dolore
+            ut corrupti id, quibusdam veritatis facere beatae dolorum aut eos
+            magnam rerum exercitationem, debitis ducimus <b> minima.</b>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum libero
+            placeat quis culpa ipsum officia modi quam veniam, temporibus,
+            reiciendis facere enim dolore fugiat ipsa? Accusamus obcaecati
+            beatae <span class="red_text">tempore tenetur.</span>
+          </p>
+        </div>
+      </div>
 
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/BsDoLVMnmZs?si=djf41_ZY0TRxrMQ5"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        
+        ></iframe>
+      </div>
 
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14488.148836066905!2d67.02120436500628!3d24.794179377364195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d0da8778751%3A0xf466063d4c2a9f35!2sClifton%20Beach%2C%20Karachi!5e0!3m2!1sen!2s!4v1719492163014!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
 
-
-</body>
+      <a href="#top">Go to Top &lt;</a>
+    </div>
+  </body>
 </html>
