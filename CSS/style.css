@@ -1,7 +1,7 @@
 
-* {
+/* * {
     background-color: aqua;
-  }
+  } */
   p.note {
     color: red;
   }
@@ -11,10 +11,10 @@
   /* li > a {
     color: rgb(255, 162, 0);
 } */
-li a{
+/* li a{
       color: rgb(255, 162, 0);
 
-  }
+  } */
   h1 + p{
     font-weight: bold;
 }
@@ -29,6 +29,7 @@ h2{
     font-weight: bold;
 }
 
+
     a{
         color: rgb(47, 255, 0) !important;
     }
@@ -36,4 +37,13 @@ h2{
     color: red;
     font-size: larger;
   }
+
+div{
+  background-color: antiquewhite;
+  padding: 3% 4% 5% 6%;
+}
+div > p{
+  border: 1px solid black;
+  padding: inherit;
+}
 
