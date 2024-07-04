@@ -1,3 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap'); */
+/* @font-face {
+    font-family: "Anton SC", sans-serif;
+
+    src: url('./AntonSC-Regular.ttf');
+} */
+
 div{
     background-color: aquamarine;
     padding: 3%;
@@ -50,7 +57,8 @@ p {
 
         p{
             font-size: 80%;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* font-family:'Courier New', Courier, monospace; */
+            /* font-family: "Anton SC", sans-serif; */
         }
 
         .div1{
