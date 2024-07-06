@@ -1,0 +1,80 @@
+h3{
+    text-transform:uppercase;
+    }
+h6{
+
+    text-transform:lowercase;
+}
+p{
+    font-weight: 500;
+    font-style: oblique;
+    text-transform: capitalize;
+    text-align: justify;
+}
+h5{
+    color: red;
+    text-decoration: line-through;
+    text-align: center;
+}
+.line_height{
+    line-height: 1.5em;
+    
+}
+.div1{
+    font-size: 64px;
+}
+span{
+    font-size: 0.75em;
+
+}
+.sp1{
+    word-spacing: 10px;
+
+}
+.sp2{
+    letter-spacing: 10px;
+
+}
+td{
+    display: flex;
+    align-items: center;
+    /* vertical-align: middle; */
+}
+
+
+h4{
+    background-image: url('../../HTML/yeshi-kangrang-wTD1-_u8x1g-unsplash.jpg');
+    text-indent: -9999px;
+
+}
+.shadow{
+
+    text-shadow: -10px -12px 2px red;
+}
+.sp2:first-letter{
+    font-size: bold;
+}
+p:hover{
+    background-color: aqua;
+}
+a:hover{
+    color: red;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: yellow;
+
+}
+
+a:active{
+    background-color: aquamarine;
+}
+input:focus{
+    padding: 3%;
+    outline-color: red;
+}
+button:focus{
+    background-color: red ;
+}
