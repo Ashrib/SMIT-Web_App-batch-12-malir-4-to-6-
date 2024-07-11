@@ -1,0 +1,24 @@
+ul{
+    list-style-type: circle;
+    /* list-style-image: url('../../HTML/yeshi-kangrang-wTD1-_u8x1g-unsplash.jpg'); */
+}
+ol{
+    /* list-style-type: lower-alpha;
+    list-style-position: inside; */
+
+    list-style: inside upper-alpha;
+}
+table.one{
+    empty-cells: hide;
+    border-spacing: 10px 5px;
+}
+table.two{
+    border-collapse: collapse;
+
+}
+td{
+    padding: 10px;
+    cursor: wait;
+}
+
+
