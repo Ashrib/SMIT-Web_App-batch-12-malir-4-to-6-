@@ -1,0 +1,25 @@
+body {
+  /* background-image: url("./download.png"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.parent {
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+p {
+  width: 70%;
+  min-width: 200px;
+  max-width: 500px;
+}
