@@ -1,31 +1,54 @@
 .main{
-
   width: 70%;
-  height: 2500px;
+  height: 200px;
   border: 1px solid black;
   padding: 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  
   flex-wrap: wrap;
+  /* flex-flow: row wrap; */
+  /* row-gap: 10px; */
 
-  justify-content: center;
+  /* gap: 10px; */
+  /* column-gap: ; */
+  /* justify-content: space-evenly; */
 
-  /* align-items: center; */
+  align-items: center; 
+  /* align-content: center; */
+
   /* align-items: baseline; */
+
 }
 .items{
   border: 1px solid black;
   padding: 5px ;
-  /* height: 50px; */
+  height: 40px;
   width: 100px;
-
+  /* flex-grow: 1; */
+  
+  /* shorthand */
+  /* flex: 1 0 200px; */
 }
 
 .one{
   font-size: 2em;
+  order: 1;
+  /* flex-shrink: 0; */
+  /* flex-grow: 5; */
 }
 
 
 .three{
   font-size: 1.5em;
+  order: -1;
+}
+.four{
+  order: -2;
+  /* flex-grow: 3; */
+  /* flex-shrink: 5; */
+  flex-basis: 200px;
+}
+.two{
+  align-self: flex-start;
 }
