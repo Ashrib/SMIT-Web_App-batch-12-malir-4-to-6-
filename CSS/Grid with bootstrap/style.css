@@ -17,9 +17,14 @@ body{
   width: 25%;
   border: 1px solid black;  
 }
-.cl-grid{
+.col-grid{
   border: 1px solid black;
-  height: 100px ;
   justify-content: center;
 
+}
+.card-img{
+  background-image: url("../../HTML/yeshi-kangrang-wTD1-_u8x1g-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
 }
