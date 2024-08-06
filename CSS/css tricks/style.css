@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 5em;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  width: max-content;
+}
+
+
+h1::after{
+  /* content: 'hello'; */
+
+}
+
+
+ul{
+  list-style: none;
+
+}
+
+ul li::before{
+  content: '🔥';
+}
+
+ul li:hover::after{
+  content: 	'😍';
+}
+ 
+
+button{
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 100px;
+  position: relative;
+}
+
+
+
+
+h1:hover::after{
+  content: '';
+  border-radius: 15px;
+  background: rgb(108, 0, 181);
+  background: linear-gradient(90deg, rgb(86, 180, 58) 0%, rgba(253,29,29,1) 50%, rgb(69, 121, 252) 100%);
+  width: 100%;
+  position: absolute;
+  height: 15px;
+  bottom: 0;
+  left: 0;
+
+}
+
+
+
+
+
+
