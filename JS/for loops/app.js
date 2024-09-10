@@ -93,7 +93,6 @@ for(var i =0; i < nums.length; i++){
         totals.push(var2);
         var2 = 0;
 
-
 }
 console.log(totals)
 
